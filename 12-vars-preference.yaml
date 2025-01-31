@@ -17,3 +17,4 @@
         msg: "Hello from {{ GREET }}"
      #1 prefer command line arg
      #2 task level
+     #3 prompt
