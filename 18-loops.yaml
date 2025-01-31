@@ -6,8 +6,8 @@
      ansible.builtin.package
       name: "{{ item }}"
       state: installed
-    loops:
-    - gcc
-    - mysql
-    - git
-    - zip
+     loops:
+     - gcc
+     - mysql
+     - git
+     - zip
