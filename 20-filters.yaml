@@ -51,4 +51,8 @@
     ansible.builtin.debug:
      msg: "min is: {{ numbers | min }} max is: {{numbers | max}}"    
 
-    
+  - name: check ip adress is valid or not
+    vars:
+     ip: "2568.255.245.256"
+    ansible.builtin.debug:
+      msg: "{{ ip | ansible.utils.ipaddr }}"   
