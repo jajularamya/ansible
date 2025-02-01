@@ -1,5 +1,5 @@
 - name: shell vs command
-  vars: local
+  hosts: local
   connection: local
   tasks:
     - name: execute ls command
