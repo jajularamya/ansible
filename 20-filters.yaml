@@ -13,7 +13,7 @@
       msg: "fruits are: {{ fruits | split('.') }}"    
 
 
-    - name: convert list into map
+    - name: convert map into list
       vars:
        course: 
          name: ansible
