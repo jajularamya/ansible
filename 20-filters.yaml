@@ -45,4 +45,10 @@
     ansible.builtin.debug:
        msg: "Hello {{ name | lower }}"
 
+  - name: print min and max 
+    vars:
+     numbers: [10,25,32,55,82,2,69,158,2655]
+    ansible.builtin.debug:
+     msg: "min is: {{ numbers | min }} max is: {{numbers | max}}"    
+
     
