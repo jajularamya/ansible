@@ -33,6 +33,8 @@
 
 
   - name: convert lower to upper
+    tags:
+    - uppertolower
     vars:
       name: "shiva kumar reddy M"   
     ansible.builtin.debug:
